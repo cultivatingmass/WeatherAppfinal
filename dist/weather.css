@@ -12,17 +12,14 @@ background: linear-gradient(to left, #c0c0aa , #1ce); /* W3C, IE 10+/ Edge, Fire
 
 #wrapper{
   background-color: rgba(0, 0, 0, 0.70);
-  width :100vw;
+  width:100vw;
   height: 100vh;
-  margin: 0 auto;
-}
-
-h1{
-  font-size: 1.4em;
+  align-content: center;
 }
 
 h2{
-  font-size: 1.5em;
+  font-size: 1.6em;
+  line-height: 1.4em;
 }
 
 .btn{

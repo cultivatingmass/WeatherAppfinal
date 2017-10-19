@@ -30,7 +30,7 @@
     <div class="row">
       <div class="col-7" id="weather">
         <div class="temp">
-          <h3><i class="fa fa-cloud"></i><?php echo $temp_current; ?>&deg;</h3>
+          <h1 style="font-size: 5em"><i class="fa fa-cloud float-left"></i><?php echo $temp_current; ?>&deg;</h1>
         </div>
       </div>
       <!-- right side -->
@@ -43,7 +43,7 @@
   </div>
 
   <div class="m-4">
-      <h2 class="pt-4 text-center statement"><?php echo $statement; ?></h2>
+      <h2 class="pt-4 text-center statement justify-content-center"><?php echo $statement; ?></h2>
   </div>
 
 
